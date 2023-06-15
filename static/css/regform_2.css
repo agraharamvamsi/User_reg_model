@@ -1,0 +1,88 @@
+#reg
+{
+	background: transparent;
+	text-align: center;
+	width: 300px;
+	padding:25px;
+	margin: 160px auto;
+	height: 350px;
+	outline: none;
+}
+
+		.form-group input[type="text"],
+		.form-group input[type="password"],
+		select,
+		textarea
+	{
+	width: 288px;
+    height:30px;
+    padding: 5px;
+    font-size:13px ;
+    color:white;
+    border: none;
+    border-bottom: 3px solid white;
+     background: transparent; 
+}
+select
+{
+    width:298px;
+    height:41px;
+    background-color: green;
+    padding: 5px;
+    font-size:13px;
+  	color: white;
+    border: none;
+    border-bottom: 3px solid white;
+    background: transparent;
+   
+}
+textarea
+{
+	width: 289px;
+	height:50px;
+	padding: 5px;
+    font-size:13px;
+	 border: none;
+	border-bottom: 3px solid white;
+
+}
+::placeholder
+{
+	color: white;
+
+}
+
+.form-group input[type="submit"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	padding: 6px 20px;
+	width: 290px;
+	color: white;
+	margin-top: 10px;
+	border-radius: 10px 0px 10px 0px;
+}
+.form-group input[type="submit"]:hover
+{
+	box-shadow: 10px 0px 10px white;
+	cursor:pointer;
+
+}
+
+
+
+#b
+{
+background-color: #A0A3C4;
+border-radius: 20%;
+background: transparent;
+color: aqua;
+}
+
+#b:hover
+{
+box-shadow: 0px 0px 0px #537dc0;
+border-top-left-radius: 40%;
+border-bottom-right-radius: 40%;   
+}

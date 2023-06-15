@@ -1,0 +1,40 @@
+{% extends 'dummy.html' %}
+    
+
+
+
+
+{% block title %}
+    
+    <title>Registrations</title>
+
+{% endblock %}
+   
+{% block body_block %}
+
+<style>
+    body
+    {
+        color: aqua;
+    }
+
+</style>
+<div class="container" id="reg"> 
+
+     <center> 
+    <form method="POST" enctype="multipart/form-data" id="imp">
+       
+    <h1 id="two">Registration Here</h1>
+    
+    {% csrf_token %}
+
+    {{ufo.as_p}}
+    {{pfo.as_p}}
+
+   <input type="submit" value="Submit" >    
+
+    </form>
+</center>
+
+    
+{% endblock %}
